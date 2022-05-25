@@ -1,0 +1,30 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(26, 29, 25);
+    color: rgb(210, 210, 210);
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 360px;
+    height: 360px;
+}
+
+.box {
+    border: 1px solid rgb(154, 160, 152);
+    height: calc(360px / 3);
+    width: calc(360px / 3);
+    flex-basis: 30%;
+    margin: -.5px;
+    background-color: rgb(210, 210, 210);
+}
+
+.box:hover {
+    background-color: rgb(190, 196, 188);
+}
